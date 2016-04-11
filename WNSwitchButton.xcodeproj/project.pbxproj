@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782388331CBB7F7300C5EB80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 782388321CBB7F7300C5EB80 /* main.m */; };
+		782388361CBB7F7300C5EB80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 782388351CBB7F7300C5EB80 /* AppDelegate.m */; };
+		782388391CBB7F7300C5EB80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 782388381CBB7F7300C5EB80 /* ViewController.m */; };
+		7823883C1CBB7F7300C5EB80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7823883A1CBB7F7300C5EB80 /* Main.storyboard */; };
+		7823883E1CBB7F7300C5EB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7823883D1CBB7F7300C5EB80 /* Assets.xcassets */; };
+		782388411CBB7F7300C5EB80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7823883F1CBB7F7300C5EB80 /* LaunchScreen.storyboard */; };
+		7823884C1CBB7F7300C5EB80 /* WNSwitchButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7823884B1CBB7F7300C5EB80 /* WNSwitchButtonTests.m */; };
+		782388571CBB7F7300C5EB80 /* WNSwitchButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782388561CBB7F7300C5EB80 /* WNSwitchButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		782388481CBB7F7300C5EB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782388261CBB7F7300C5EB80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7823882D1CBB7F7300C5EB80;
+			remoteInfo = WNSwitchButton;
+		};
+		782388531CBB7F7300C5EB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782388261CBB7F7300C5EB80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7823882D1CBB7F7300C5EB80;
+			remoteInfo = WNSwitchButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7823882E1CBB7F7300C5EB80 /* WNSwitchButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WNSwitchButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782388321CBB7F7300C5EB80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		782388341CBB7F7300C5EB80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		782388351CBB7F7300C5EB80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		782388371CBB7F7300C5EB80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		782388381CBB7F7300C5EB80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7823883B1CBB7F7300C5EB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7823883D1CBB7F7300C5EB80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782388401CBB7F7300C5EB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		782388421CBB7F7300C5EB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782388471CBB7F7300C5EB80 /* WNSwitchButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNSwitchButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7823884B1CBB7F7300C5EB80 /* WNSwitchButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNSwitchButtonTests.m; sourceTree = "<group>"; };
+		7823884D1CBB7F7300C5EB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782388521CBB7F7300C5EB80 /* WNSwitchButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNSwitchButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782388561CBB7F7300C5EB80 /* WNSwitchButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNSwitchButtonUITests.m; sourceTree = "<group>"; };
+		782388581CBB7F7300C5EB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7823882B1CBB7F7300C5EB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782388441CBB7F7300C5EB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7823884F1CBB7F7300C5EB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782388251CBB7F7300C5EB80 = {
+			isa = PBXGroup;
+			children = (
+				782388301CBB7F7300C5EB80 /* WNSwitchButton */,
+				7823884A1CBB7F7300C5EB80 /* WNSwitchButtonTests */,
+				782388551CBB7F7300C5EB80 /* WNSwitchButtonUITests */,
+				7823882F1CBB7F7300C5EB80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7823882F1CBB7F7300C5EB80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7823882E1CBB7F7300C5EB80 /* WNSwitchButton.app */,
+				782388471CBB7F7300C5EB80 /* WNSwitchButtonTests.xctest */,
+				782388521CBB7F7300C5EB80 /* WNSwitchButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782388301CBB7F7300C5EB80 /* WNSwitchButton */ = {
+			isa = PBXGroup;
+			children = (
+				782388341CBB7F7300C5EB80 /* AppDelegate.h */,
+				782388351CBB7F7300C5EB80 /* AppDelegate.m */,
+				782388371CBB7F7300C5EB80 /* ViewController.h */,
+				782388381CBB7F7300C5EB80 /* ViewController.m */,
+				7823883A1CBB7F7300C5EB80 /* Main.storyboard */,
+				7823883D1CBB7F7300C5EB80 /* Assets.xcassets */,
+				7823883F1CBB7F7300C5EB80 /* LaunchScreen.storyboard */,
+				782388421CBB7F7300C5EB80 /* Info.plist */,
+				782388311CBB7F7300C5EB80 /* Supporting Files */,
+			);
+			path = WNSwitchButton;
+			sourceTree = "<group>";
+		};
+		782388311CBB7F7300C5EB80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				782388321CBB7F7300C5EB80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7823884A1CBB7F7300C5EB80 /* WNSwitchButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				7823884B1CBB7F7300C5EB80 /* WNSwitchButtonTests.m */,
+				7823884D1CBB7F7300C5EB80 /* Info.plist */,
+			);
+			path = WNSwitchButtonTests;
+			sourceTree = "<group>";
+		};
+		782388551CBB7F7300C5EB80 /* WNSwitchButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				782388561CBB7F7300C5EB80 /* WNSwitchButtonUITests.m */,
+				782388581CBB7F7300C5EB80 /* Info.plist */,
+			);
+			path = WNSwitchButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7823882D1CBB7F7300C5EB80 /* WNSwitchButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7823885B1CBB7F7300C5EB80 /* Build configuration list for PBXNativeTarget "WNSwitchButton" */;
+			buildPhases = (
+				7823882A1CBB7F7300C5EB80 /* Sources */,
+				7823882B1CBB7F7300C5EB80 /* Frameworks */,
+				7823882C1CBB7F7300C5EB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WNSwitchButton;
+			productName = WNSwitchButton;
+			productReference = 7823882E1CBB7F7300C5EB80 /* WNSwitchButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		782388461CBB7F7300C5EB80 /* WNSwitchButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7823885E1CBB7F7300C5EB80 /* Build configuration list for PBXNativeTarget "WNSwitchButtonTests" */;
+			buildPhases = (
+				782388431CBB7F7300C5EB80 /* Sources */,
+				782388441CBB7F7300C5EB80 /* Frameworks */,
+				782388451CBB7F7300C5EB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782388491CBB7F7300C5EB80 /* PBXTargetDependency */,
+			);
+			name = WNSwitchButtonTests;
+			productName = WNSwitchButtonTests;
+			productReference = 782388471CBB7F7300C5EB80 /* WNSwitchButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		782388511CBB7F7300C5EB80 /* WNSwitchButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782388611CBB7F7300C5EB80 /* Build configuration list for PBXNativeTarget "WNSwitchButtonUITests" */;
+			buildPhases = (
+				7823884E1CBB7F7300C5EB80 /* Sources */,
+				7823884F1CBB7F7300C5EB80 /* Frameworks */,
+				782388501CBB7F7300C5EB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782388541CBB7F7300C5EB80 /* PBXTargetDependency */,
+			);
+			name = WNSwitchButtonUITests;
+			productName = WNSwitchButtonUITests;
+			productReference = 782388521CBB7F7300C5EB80 /* WNSwitchButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782388261CBB7F7300C5EB80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = weinee;
+				TargetAttributes = {
+					7823882D1CBB7F7300C5EB80 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					782388461CBB7F7300C5EB80 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7823882D1CBB7F7300C5EB80;
+					};
+					782388511CBB7F7300C5EB80 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 7823882D1CBB7F7300C5EB80;
+					};
+				};
+			};
+			buildConfigurationList = 782388291CBB7F7300C5EB80 /* Build configuration list for PBXProject "WNSwitchButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 782388251CBB7F7300C5EB80;
+			productRefGroup = 7823882F1CBB7F7300C5EB80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7823882D1CBB7F7300C5EB80 /* WNSwitchButton */,
+				782388461CBB7F7300C5EB80 /* WNSwitchButtonTests */,
+				782388511CBB7F7300C5EB80 /* WNSwitchButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7823882C1CBB7F7300C5EB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782388411CBB7F7300C5EB80 /* LaunchScreen.storyboard in Resources */,
+				7823883E1CBB7F7300C5EB80 /* Assets.xcassets in Resources */,
+				7823883C1CBB7F7300C5EB80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782388451CBB7F7300C5EB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782388501CBB7F7300C5EB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7823882A1CBB7F7300C5EB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782388391CBB7F7300C5EB80 /* ViewController.m in Sources */,
+				782388361CBB7F7300C5EB80 /* AppDelegate.m in Sources */,
+				782388331CBB7F7300C5EB80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782388431CBB7F7300C5EB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7823884C1CBB7F7300C5EB80 /* WNSwitchButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7823884E1CBB7F7300C5EB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782388571CBB7F7300C5EB80 /* WNSwitchButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		782388491CBB7F7300C5EB80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7823882D1CBB7F7300C5EB80 /* WNSwitchButton */;
+			targetProxy = 782388481CBB7F7300C5EB80 /* PBXContainerItemProxy */;
+		};
+		782388541CBB7F7300C5EB80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7823882D1CBB7F7300C5EB80 /* WNSwitchButton */;
+			targetProxy = 782388531CBB7F7300C5EB80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7823883A1CBB7F7300C5EB80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7823883B1CBB7F7300C5EB80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7823883F1CBB7F7300C5EB80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782388401CBB7F7300C5EB80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		782388591CBB7F7300C5EB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7823885A1CBB7F7300C5EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7823885C1CBB7F7300C5EB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WNSwitchButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pers.weinee.WNSwitchButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7823885D1CBB7F7300C5EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WNSwitchButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pers.weinee.WNSwitchButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7823885F1CBB7F7300C5EB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WNSwitchButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pers.weinee.WNSwitchButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WNSwitchButton.app/WNSwitchButton";
+			};
+			name = Debug;
+		};
+		782388601CBB7F7300C5EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WNSwitchButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pers.weinee.WNSwitchButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WNSwitchButton.app/WNSwitchButton";
+			};
+			name = Release;
+		};
+		782388621CBB7F7300C5EB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WNSwitchButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pers.weinee.WNSwitchButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WNSwitchButton;
+			};
+			name = Debug;
+		};
+		782388631CBB7F7300C5EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WNSwitchButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pers.weinee.WNSwitchButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WNSwitchButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782388291CBB7F7300C5EB80 /* Build configuration list for PBXProject "WNSwitchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782388591CBB7F7300C5EB80 /* Debug */,
+				7823885A1CBB7F7300C5EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7823885B1CBB7F7300C5EB80 /* Build configuration list for PBXNativeTarget "WNSwitchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7823885C1CBB7F7300C5EB80 /* Debug */,
+				7823885D1CBB7F7300C5EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7823885E1CBB7F7300C5EB80 /* Build configuration list for PBXNativeTarget "WNSwitchButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7823885F1CBB7F7300C5EB80 /* Debug */,
+				782388601CBB7F7300C5EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		782388611CBB7F7300C5EB80 /* Build configuration list for PBXNativeTarget "WNSwitchButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782388621CBB7F7300C5EB80 /* Debug */,
+				782388631CBB7F7300C5EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782388261CBB7F7300C5EB80 /* Project object */;
+}
