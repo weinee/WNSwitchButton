@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7823882D1CBB7F7300C5EB80"
+               BuildableName = "WNSwitchButton.app"
+               BlueprintName = "WNSwitchButton"
+               ReferencedContainer = "container:WNSwitchButton.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "782388461CBB7F7300C5EB80"
+               BuildableName = "WNSwitchButtonTests.xctest"
+               BlueprintName = "WNSwitchButtonTests"
+               ReferencedContainer = "container:WNSwitchButton.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "782388511CBB7F7300C5EB80"
+               BuildableName = "WNSwitchButtonUITests.xctest"
+               BlueprintName = "WNSwitchButtonUITests"
+               ReferencedContainer = "container:WNSwitchButton.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7823882D1CBB7F7300C5EB80"
+            BuildableName = "WNSwitchButton.app"
+            BlueprintName = "WNSwitchButton"
+            ReferencedContainer = "container:WNSwitchButton.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7823882D1CBB7F7300C5EB80"
+            BuildableName = "WNSwitchButton.app"
+            BlueprintName = "WNSwitchButton"
+            ReferencedContainer = "container:WNSwitchButton.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7823882D1CBB7F7300C5EB80"
+            BuildableName = "WNSwitchButton.app"
+            BlueprintName = "WNSwitchButton"
+            ReferencedContainer = "container:WNSwitchButton.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

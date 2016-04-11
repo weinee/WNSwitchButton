@@ -15,6 +15,7 @@
 		782388411CBB7F7300C5EB80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7823883F1CBB7F7300C5EB80 /* LaunchScreen.storyboard */; };
 		7823884C1CBB7F7300C5EB80 /* WNSwitchButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7823884B1CBB7F7300C5EB80 /* WNSwitchButtonTests.m */; };
 		782388571CBB7F7300C5EB80 /* WNSwitchButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782388561CBB7F7300C5EB80 /* WNSwitchButtonUITests.m */; };
+		782388671CBB8FD500C5EB80 /* WNSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 782388661CBB8FD500C5EB80 /* WNSwitchButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		782388521CBB7F7300C5EB80 /* WNSwitchButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WNSwitchButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		782388561CBB7F7300C5EB80 /* WNSwitchButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNSwitchButtonUITests.m; sourceTree = "<group>"; };
 		782388581CBB7F7300C5EB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		782388651CBB8FD500C5EB80 /* WNSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WNSwitchButton.h; sourceTree = "<group>"; };
+		782388661CBB8FD500C5EB80 /* WNSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WNSwitchButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		782388301CBB7F7300C5EB80 /* WNSwitchButton */ = {
 			isa = PBXGroup;
 			children = (
+				782388641CBB8F0900C5EB80 /* WNSwitchButton */,
 				782388341CBB7F7300C5EB80 /* AppDelegate.h */,
 				782388351CBB7F7300C5EB80 /* AppDelegate.m */,
 				782388371CBB7F7300C5EB80 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				782388581CBB7F7300C5EB80 /* Info.plist */,
 			);
 			path = WNSwitchButtonUITests;
+			sourceTree = "<group>";
+		};
+		782388641CBB8F0900C5EB80 /* WNSwitchButton */ = {
+			isa = PBXGroup;
+			children = (
+				782388651CBB8FD500C5EB80 /* WNSwitchButton.h */,
+				782388661CBB8FD500C5EB80 /* WNSwitchButton.m */,
+			);
+			name = WNSwitchButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				782388391CBB7F7300C5EB80 /* ViewController.m in Sources */,
 				782388361CBB7F7300C5EB80 /* AppDelegate.m in Sources */,
+				782388671CBB8FD500C5EB80 /* WNSwitchButton.m in Sources */,
 				782388331CBB7F7300C5EB80 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
